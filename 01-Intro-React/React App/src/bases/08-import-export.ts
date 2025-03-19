@@ -12,3 +12,5 @@ const getHeroesByOwner = (owner: string) => {
 console.log(findHeroes(1));
 console.log(getHeroesByOwner("DC"));
 console.log(owners);
+
+export { findHeroes, getHeroesByOwner };
